@@ -1,0 +1,1060 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+   
+  
+
+}
+.top-weel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+
+.top-p p{
+    display: inline-block;
+    color: gray;
+    
+}
+.nav-class{
+    display: flex;
+    background-color:black;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-right:100px ;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    color: white;
+    margin: 8px 25px; 
+}
+.heading1 h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 200%;
+}
+
+.img>img{
+    display: inline-block;
+    margin: -40% 10px;
+    padding: -10%;
+}
+
+/* section conteact */
+
+.info{
+     max-width: 1240px;
+     height: 500px;
+    background-image: url(../image/Rectangle\ 3rasm1.png);
+    background-position: center ;
+    background-size: cover; 
+    
+}
+
+
+
+.heading-1 >h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+     padding: 10%;
+        
+}
+
+.heading-1 >h5{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+     margin-top: -12%;
+     padding: 5%;
+  
+   
+        
+}
+.heading-1 >p{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+     margin-top: -4%;
+     text-align: center;
+}
+
+/* .SECTION CONTENT */
+.content-hammasi{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.content-all{
+  background-color: rgb(28, 34, 34);
+  margin-left: 20px;
+  width: 150px;
+  height: 200px;
+}
+.content-all >img{
+    width: 100%;
+    padding: 10px 0;
+}
+.content-all h1{
+    color: wheat;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.content-all p{
+    color: wheat;
+    font-size: 15px;
+   margin-top: -15%;
+    
+}
+.content-hammasi >img{
+    width: 100%;
+ 
+}
+.content-img{
+    max-width: 120px;
+    
+}
+.content-img >img{  
+ width: 100%;
+ margin-left: 10%;
+}
+
+/* books siction */
+
+.books-all{
+       display: flex;
+        background-color: black;
+       align-items: center;
+       justify-content: center;
+
+       
+     
+}
+.books-img{
+    max-width: 710px;
+   
+  
+}
+.books-img >img{
+    width: 100%;
+    margin-left: -3%;
+    
+}
+
+.books-chiz{
+    width: 24%;
+    height: 5px;
+    background-color: rgb(166, 199, 199);
+    margin-left: 40%;
+    
+   
+}
+.books-text >h1{
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    
+   
+}
+.books-text >p{
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+   
+    
+}
+.btn-1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    margin-left: 25%;
+    padding: 8px 24px;
+   
+}
+
+/* week section */
+
+.week-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 120px;
+    background-color: black;
+    flex-wrap: wrap;
+   margin-top: 5%;
+    
+}
+
+.week-row{
+
+  background-color: rgb(28, 34, 34);
+  margin-left: 20px;
+  width: 200px;
+  height: 220px;
+ 
+}
+.week-row >img{
+    width: 100%;
+    
+}
+.week-row >h1{
+    color: wheat;
+    font-size: 15px;
+    padding: 30px 0;
+}
+.week-row p{
+  
+    color: wheat;
+    font-size: 10px;
+   margin-top: -15%;
+   
+}
+
+/* center-section */
+
+.center-all{
+   background-color: rgb(27, 26, 26);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   margin-top: 10%;
+
+}
+.fotur-wel>h1{
+color: white;
+}
+.row-a{
+width: 100%;
+height: 5px;
+background-color: whitesmoke;
+margin-top: 10px;
+}
+
+/* FOOTUR SECTION */
+.fotur-col{
+   background-color: rgb(27, 26, 26);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+  
+   gap: 20px;
+}
+
+.row >h1{
+font-size: 20px;
+color: white;
+padding: 5%;
+
+}
+.row >p{
+font-size: 15px;
+color: white;
+
+}
+ 
+@media(max-width:1440px){
+   
+    .nav-class{
+        display: flex;
+        background-color:black;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-around;
+    }
+    ul li a{
+        text-decoration: none;
+        padding: 20px 25px;
+        display: block;
+        color: white;
+        margin: 8px 25px; 
+    }
+
+    .content-hammasi{
+        display: flex;
+        background-color: black;
+        align-items: center;
+        
+    
+    }
+    .content-all{
+        background-color: rgb(28, 34, 34);
+        margin-left: 20px;
+        width: 130px;
+        height: 180px;
+      }
+      .content-all >img{
+          width: 100%;
+          padding: 10px 0;
+      }
+      .content-all h1{
+          color:white;
+          font-size: 15px;
+          padding: 30px 0;
+      }
+      .content-all p{
+          color:white;
+          font-size: 10px;
+           margin-top: -15%;
+          
+      }
+      
+      
+      .content-hammasi >img{
+          width: 100%;
+       
+      }
+      .content-img{
+           max-width: 490px;
+        
+      }
+      .content-img >img{
+          width: 100%;
+        
+      }
+      .week-all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       gap: 80px;
+        background-color: black;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        
+     }
+     .books-all{
+        display: flex;
+         background-color: black;
+         gap: 70px;    
+ }
+ .books-img{
+    max-width: 470px;
+   
+  
+}
+.books-img >img{
+    width: 100%;
+    
+}
+}
+@media(max-width:976px){
+    .nav-class{
+        display: flex;
+        background-color:black;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-around;
+    }
+    ul li a{
+        text-decoration: none;
+        padding: 20px 25px;
+        display: block;
+        color: white;
+        margin: 8px 25px; 
+    }
+    .info{
+        max-width: 1240px;
+        height: 500px;
+       background-image: url(../image/Rectangle\ 3rasm1.png);
+       background-position: center ;
+       background-size: cover; 
+       
+   }
+    .content-hammasi{
+        display: flex;
+        background-color: black;
+        align-items: center;
+         
+        
+    
+    }
+    .content-all{
+        background-color: rgb(28, 34, 34);
+        margin-left: 20px;
+        width: 130px;
+        height: 180px;
+      }
+      .content-all >img{
+          width: 100%;
+          padding: 10px 0;
+      }
+      .content-all h1{
+          color:white;
+          font-size: 15px;
+          padding: 30px 0;
+      }
+      .content-all p{
+          color:white;
+          font-size: 10px;
+           margin-top: -15%;
+          
+      }
+      
+      
+      .content-hammasi >img{
+          width: 100%;
+       
+      }
+      .content-img{
+           max-width: 510px;
+        
+      }
+      .content-img >img{
+          width: 100%;
+        margin-left: 18%;
+      
+
+}
+
+.center-all{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10%;
+    
+ 
+ }
+ .fotur-wel>h1{
+ color: white;
+ }
+ .row-a{
+ width: 100%;
+ height: 5px;
+ background-color: whitesmoke;
+ margin-top: 10px;
+ }
+.fotur-col{
+   background-color: rgb(27, 26, 26);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   margin-top:-2%;
+   gap: 30px;
+   
+}
+
+.row >h1{
+font-size: 15px;
+color: white;
+padding: 5%;
+
+}
+.row >p{
+font-size: 10px;
+color: white;
+
+}
+
+ .week-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 90px;
+    background-color: black;
+    flex-wrap: wrap;
+   margin-top: 5%;
+    
+}
+
+.week-row{
+  background-color: rgb(28, 34, 34);
+  margin-left: 20px;
+  width: 130px;
+  height: 150px;
+  
+ 
+}
+.week-row >img{
+    width: 100%;
+    
+}
+.week-row >h1{
+    color: wheat;
+    font-size: 15px;
+    padding: 30px 0;
+}
+.week-row p{
+  
+    color: wheat;
+    font-size: 10px;
+   margin-top: -15%;
+   
+}
+
+ 
+}
+@media(max-width:768px){
+    .nav-class{
+        display: flex;
+        background-color:black;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-around;
+        flex-direction: column;
+    }
+    ul li a{
+        text-decoration: none;
+        padding: 20px 25px;
+        display: block;
+        color: white;
+        margin: 10px 25px; 
+    }
+    .heading1 h1{
+        color: white;
+        font-size: 20px;
+       margin-left: -15%;
+       
+        
+    }
+
+    .info{
+        max-width: 1240px;
+        height: 500px;
+       background-image: url(../image/Rectangle\ 3rasm1.png);
+       background-position: center ;
+       background-size: cover; 
+
+       
+   }
+
+   .heading-1 >h2{
+       color: white;
+       text-align: center;
+       font-size: 20px;
+        padding: 10%;
+           
+   }
+   
+   .heading-1 >h5{
+       color:white;
+       font-size: 15px;
+       text-align: center;
+        margin-top: -12%;
+        padding: 5%;
+     
+      
+           
+   }
+   .heading-1 >p{
+       color: white;
+       display: flex;
+       line-height: 1.5;
+       font-size: 12px;
+       justify-content: center;
+        margin-top: -4%;
+        text-align: center;
+   }
+    
+    .content-hammasi{
+        display: flex;
+        background-color: black;
+        align-items: center;
+        gap: 5px;
+        
+    
+    }
+    .content-all{
+        background-color: rgb(28, 34, 34);
+        margin-left: 20px;
+        width: 150px;
+        height: 130px;
+      }
+      .content-all >img{
+          width: 100%;
+         
+      }
+      .content-all h1{
+          color:white;
+          font-size: 12px;
+          padding: 20px 0;
+      }
+      .content-all p{
+          color:white;
+          font-size: 9px;
+           margin-top: -18%;
+          
+      }
+      
+      
+      .content-hammasi >img{
+          width: 100%;
+       
+      }
+        .content-img{
+            max-width: 400px;
+            
+        }
+      .content-img >img{
+          width: 100%;
+          margin-left: -0.1%;
+    
+}
+
+.books-all{
+    display: flex;
+     background-color: black;
+     gap: 20px;    
+}
+.books-img{
+max-width: 370px;
+
+
+}
+.books-img >img{
+width: 100%;
+
+}
+.books-text >h1{
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    
+   
+}
+.books-text >p{
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+   
+    
+}
+.btn-1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    margin-left: 25%;
+    padding: 8px 24px;
+   
+}
+.week-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 80px;
+    background-color: black;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    
+ }
+ .week-row{
+
+    background-color: rgb(28, 34, 34);
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+   
+  }
+  .week-row >img{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 5%;
+
+      
+  }
+  .week-row >h1{
+      color: white;
+      font-size: 12px;
+      padding: 20px 0;
+  }
+  .week-row p{
+    
+      color: white;
+      font-size: 10px;
+     margin-top: -15%;
+     
+  }
+  .center-all{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15%;
+    
+ 
+ }
+ .fotur-wel>h1{
+ color: white;
+ font-size: 25px;
+ text-align: center;
+ }
+ .row-a{
+ width: 100%;
+ height: 5px;
+ background-color: whitesmoke;
+ margin-top: 10px;
+ }
+.fotur-col{
+   background-color: rgb(27, 26, 26);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   margin-top:-2%;
+  
+   
+}
+
+
+.row >h1{
+font-size: 18px;
+color: white;
+padding: 5%;
+text-align: center;
+
+
+}
+.row >p{
+font-size: 15px;
+color: white;
+text-align: center;
+
+
+}
+
+}
+@media(max-width:480px){
+
+.top-weel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+
+.top-p p{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    
+}
+
+    .nav-class{
+        display: flex;
+        background-color:black;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-around;
+        
+    }
+ ul{
+    list-style: none;
+    display: flex;
+    margin-right:10px ;
+}
+ul li a{
+    text-decoration: none;
+    padding: 2px 6px;
+    display: block;
+    color: white;
+    margin: 4px 8px; 
+}
+
+.img>img{
+    display: inline-block;
+    margin: -10% 10px;
+    padding: -10%;
+}
+    .heading1 h1{
+        color: white;
+        font-size: 20px;
+       margin-left: -10%;
+       
+        
+    }
+
+    .info{
+        max-width: 1240px;
+        height: 200px;
+       background-image: url(../image/Rectangle\ 3rasm1.png);
+       background-position: center ;
+       background-size: cover; 
+
+       
+   }
+
+   .heading-1 >h2{
+       color: white;
+       text-align: center;
+       font-size: 12px;
+        padding: 10%;
+           
+   }
+   
+   .heading-1 >h5{
+       color:white;
+       font-size: 10px;
+       text-align: center;
+        margin-top: -12%;
+        padding: 5%;
+     
+      
+           
+   }
+   .heading-1 >p{
+       color: white;
+       display: flex;
+       line-height: 1.5;
+       font-size: 8px;
+       justify-content: center;
+        margin-top: -4%;
+        text-align: center;
+   }
+    
+    .content-hammasi{
+        display: flex;
+        background-color: black;
+        align-items: center;
+        gap: 5px;
+        
+    
+    }
+    .content-all{
+        background-color: rgb(28, 34, 34);
+        margin-left: 20px;
+        width: 50px;
+        height: 80px;
+      }
+      .content-all >img{
+          width: 100%;
+         
+      }
+      .content-all h1{
+          color:white;
+          font-size: 10px;
+          padding: 10px 0;
+      }
+      .content-all p{
+          color:white;
+          font-size: 7px;
+          
+          
+      }
+      
+      
+      .content-hammasi >img{
+          width: 100%;
+       
+      }
+      .content-img{
+           max-width: 254px;
+        
+      }
+      .content-img >img{
+          width: 100%;
+          margin-left: -0.1%;
+    
+}
+
+.books-all{
+    display: flex;
+     background-color: black;
+     gap: 5px;
+     flex-direction: column;   
+     justify-content: center;
+     align-items: center;
+}
+
+.books-img >img{
+width: 100%;
+
+}
+.books-text >h1{
+    color: rgb(196, 190, 190);
+    padding: 5px 0;
+    text-align: center;
+    
+   
+}
+.books-text >p{
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+   
+    
+}
+.btn-1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    margin-left: 25%;
+    padding: 8px 24px;
+   
+}
+.week-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 80px;
+    background-color: black;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    
+ }
+ .week-row{
+
+    background-color: rgb(28, 34, 34);
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+   
+  }
+  .week-row >img{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 5%;
+
+      
+  }
+  .week-row >h1{
+      color: white;
+      font-size: 12px;
+      padding: 20px 0;
+  }
+  .week-row p{
+    
+      color: white;
+      font-size: 10px;
+     margin-top: -15%;
+     
+  }
+  .books-text >h1{
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    
+   
+}
+.books-text >p{
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+   
+    
+}
+
+.btn-1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    margin-left: 25%;
+    padding: 8px 24px;
+   
+}
+
+.center-all{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15%;
+    
+ 
+ }
+ 
+
+
+}
+@media(max-width:390px){
+    .nav-class{
+        display: flex;
+        background-color:black;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-around;
+        
+    }
+ ul{
+    list-style: none;
+    display: flex;
+    margin-right:10px ;
+}
+ul li a{
+    text-decoration: none;
+    padding: 1px 4px;
+    font-size: 12px;
+    display: block;
+    color: white;
+   
+}
+.heading1 h1{
+    color: white;
+    font-size: 15px;
+   margin-left: -10%;
+   
+    
+}
+.content-hammasi{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    gap: 5px;
+    
+
+}
+.content-all{
+    background-color: rgb(28, 34, 34);
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .content-all >img{
+      width: 100%;
+     
+  }
+  .content-all h1{
+      color:white;
+      font-size: 8px;
+      padding: 8px 0;
+  }
+  .content-all p{
+      color:white;
+      font-size: 5px;
+      
+      
+  }
+  
+  
+  .content-hammasi >img{
+      width: 100%;
+   
+  }
+  .content-img{
+       max-width: 254px;
+    
+  }
+  .content-img >img{
+      width: 100%;
+      margin-left: -0.1%;
+
+}
+
+}
